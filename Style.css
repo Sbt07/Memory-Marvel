@@ -99,11 +99,12 @@ body{
 
 @media (max-width:400px){
     .wrapper{
+        width: 82%;
         margin-top: calc(-100%/4);
-        margin-left: 30px;
+        margin-left: -5px;
     }  
     .wrapper h2{
-        font-size: 26px;
+        font-size: 28px;
       }
       .cards, .card, .view{
         display: flex;
@@ -111,14 +112,13 @@ body{
         justify-content: center;
       }
       .cards{
-        height: 300px;
-        width: 300px;
+        height: 245px;
+        width: 245px;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 18px;
       }
       .cards .card{
-        height: calc(100% / 4 - 8px);
-        width: calc(100% / 4 - 8px);
+        height: calc(100% / 4 - 9px);
+        width: calc(100% / 4 - 9px);
       }
 }
