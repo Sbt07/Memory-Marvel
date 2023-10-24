@@ -10,22 +10,23 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: black;
+  background: #efe1e9;
 }
 .wrapper{
   position: absolute;
   border-radius: 15px;
-  background: #9e93c2;
-  box-shadow: 8px 8px 24px rgba(255, 255, 255, 0.3);
+  background: #ffffff;
+  box-shadow: 2px 2px 28px rgba(0,0,0, .4);
 }
 .wrapper h2{
     font-size: 32px;
     font-weight: 595;
+    color: #fff;
     width: 100%;
     padding: 20px;
     text-align: center;
     border-radius: 15px 15px 0 0;
-    background: #d7d5dc;
+    background: #7a2b67;
 }
 .cards, .card, .view{
   display: flex;
@@ -77,9 +78,9 @@ body{
   background: #fff;
   pointer-events: none;
   backface-visibility: hidden;
-  box-shadow: 0 3px 10px rgba(69, 19, 73, 0.25);
+  box-shadow: 0 3px 10px rgba(27, 3, 11, 0.25);
   transition: transform 0.25s linear;
-  border: 2.5px solid #52085a;
+  border: 3px solid #954382;
 }
 .card .front-view img{
   width: 19px;
